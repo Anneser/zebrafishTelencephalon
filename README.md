@@ -1,5 +1,10 @@
+<p align="center">
+<img src="./Data/ColorfulTelencephalon_smoothed.jpg" width="280" height="280">
+</p>
+
 # Analysis code for zebrafish telencephalon sequencing data
 In this repository, we provide the analysis code for scRNA-seq and bulk sequencing data from zebrafish telencephalon.
+
 
 ## contents
 - ./analysis/
