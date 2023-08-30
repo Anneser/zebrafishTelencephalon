@@ -45,6 +45,36 @@ STAR \
 --outSAMattributes NH HI CR UR CB UB GX GN
 ```
 
+## SAMap
+We closely followed the [vignette](https://github.com/atarashansky/SAMap/blob/main/SAMap_vignette.ipynb) provided in the SAMap repository.
+After obtaining blast mappings between zebrafish and bearded dragon, we run the following python code:
+```
+from samap.mapping import SAMAP
+from samap.analysis import (get_mapping_scores, GenePairFinder, transfer_annotations,
+                            sankey_plot, chord_plot, CellTypeTriangles,
+                            ParalogSubstitutions, FunctionalEnrichment,
+                            convert_eggnog_to_homologs, GeneTriangles)
+from samalg import SAM
+import pandas as pd    
+from samap.utils import save_samap   
+
+fn1    = 'lizard/Pogona_vitticeps_withAnnotation.h5ad'
+fn2    = 'zebrafish/scdr_v2_withAnnotation.h5ad'
+
+filenames = {'lz':fn1,'zf':fn2}   
+sm = SAMAP(
+        filenames,
+        f_maps = '../maps/',
+        keys = {'zf':'cluster','lz':'newcluster'},
+        save_processed=False
+)
+
+sm.run(neigh_from_keys = {'lz':True,'zf':True}, ncpus=24)
+
+# should finish with:
+#<samalg.SAM object at 0x7f8ec2400050>
+```
+
 ## session info
 ```
 R version 4.2.1 (2022-06-23 ucrt)
