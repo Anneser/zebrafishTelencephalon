@@ -17,7 +17,8 @@ In this repository, we provide the analysis code for scRNA-seq and bulk sequenci
   - 05_GeneFamilyAnalysis.R calculates the expression of genes belonging to different gene families within our identified cell types.
   - 06_GeneInformationContent.R performs a Random Forest analysis with which we assess how informative different gene families are to retrieve the cell type structure of the dataset.
   - 07_NeuromodulatoryNetworks.R computes expression thresholds for GPCRs, calculates graph structures of distinct neuromodulatory networks, and performs dimensionality reduction on the neuromodulation-associated gene expression dataset.
-  - 08_SAMapConservedGenes.R takes the output of the SAMap pipeline to extract conserved GPCRs and transcription factors. 
+  - 08_SAMapConservedGenes.R takes the output of the SAMap pipeline to extract conserved GPCRs and transcription factors.
+  - 09_MuSiC.R uses the [MuSiC](https://xuranw.github.io/MuSiC/articles/MuSiC.html) package to deconvolve contributions of single cell types to the four pallial regions from which we have obtained bulk sequencing data. 
 - ./data/
   Additional files necessary for analysis.
 
