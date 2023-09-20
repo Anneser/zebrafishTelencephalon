@@ -8,7 +8,7 @@ BiocManager::install("biomaRt")
 
 
 library(DESeq2)
-#library(readr)
+library(UpSetR)
 library(tidyr)
 library(RColorBrewer)
 library(pheatmap)
@@ -17,7 +17,8 @@ library(ggplot2)
 library(ggpubr)
 library(readxl)
 
-setwd("./Data")
+
+setwd("./Data/")
 
 # I already merged the two spreadsheets into one .csv
 bulk_df <- as.data.frame(read.csv("bulk_df.csv" ))
@@ -143,7 +144,7 @@ gene_list$entrez <- genemap$entrezgene_id[ idx ]
 gene_list$ensembl <- genemap$ensembl_gene_id[ idx ]
 
 # now, load KEGG list with all GPCRs (search term "dre04030")
-kegg <- read.csv("./Data/KEGG.csv")
+kegg <- read.csv("./KEGG.csv")
 # match expressed genes with the KEGG list:
 idx <- match(gene_list$entrez, kegg$entrezgene_id)
 gene_list$KEGG_family <- kegg$KEGG_family[ idx ]
@@ -152,30 +153,39 @@ gene_list$KEGG_subnode <- kegg$KEGG_subnode[ idx ]
 
 annotated_gene_list <- gene_list[is.na(gene_list$KEGG_node) == 0,]
 gpcr_id <- annotated_gene_list$KEGG_family == "dre04030"
-gpcr_list <- annotated_gene_list$gene_names[gpcr_id] # 348 expressed GPCRs in total
+gpcr_list <- annotated_gene_list$gene_names[gpcr_id] # 207 expressed GPCRs in total
 
 # Here, load the manually curated list of neuromodulatory GPCRs:
-GPCR_df <- read_xlsx('./Data/GPCR.xlsx')
-gpcr_nm_list <- unique(GPCR_df$receptor)
+GPCR_df <- read.csv("GPCR.csv", sep=";")
+gpcr_nm_list <- unique(GPCR_df$receptor) # 342 neuromodulatory GPCRs
 #check expression:
 gpcr_id <- match(gpcr_nm_list, annotated_gene_list$gene_names)
-gpcr_nm_list <- annotated_gene_list$gene_names[gpcr_id] # 342 expressed neuromodulatory GPCRs (many NAs)
+gpcr_nm_list <- annotated_gene_list$gene_names[gpcr_id] # 342 neuromodulatory GPCRs (many NAs)
 
 # compile complete list:
-gpcr_complete_list <- intersect(gpcr_list, gpcr_nm_list) # 204 expressed neuromodulatory GPCRs
+gpcr_complete_list <- union(gpcr_list, gpcr_nm_list) # 213 expressed GPCRs
+gpcr_nm_list <- intersect(gpcr_list, gpcr_nm_list) # 129 expressed neuromodulatory GPCRs
+
 
 # create a subset containing only differentially expressed receptors
 # 1. subset to differentially expressed genes
 DE_res <- annot_res[which(annot_res$padj<0.05),]
 # 2. subset GPCRs
-DE_GPCRs <- intersect(DE_res$external_gene_name, gpcr_complete_list) # gives 82
+DE_GPCRs <- intersect(DE_res$external_gene_name, gpcr_complete_list) # gives 79
 # now check how many GPCRs in general are differentially expressed:
-DE_allGPCRs <- intersect(DE_res$external_gene_name, gpcr_list) # gives 127
+DE_nmGPCRs <- intersect(DE_res$external_gene_name, gpcr_nm_list) # gives 51
 # 3. get expression strength for these receptors in different brain areas
 Expr_GPCRs <- dds[match(unique(DE_GPCRs) , res$external_gene_name),]
 rld_GPCRs <- rlog(Expr_GPCRs, blind=FALSE)  # first option for clustering
 assay_GPCRs <- assay(Expr_GPCRs)
 assay_GPCRs <- t(apply(assay_GPCRs[,] , 1 , scale))
+
+# plot GPCR: numbers in total vs differentially expressed
+# step 1: prepare data as list of lists
+GPCR_data_list <- list(GPCRs = gpcr_complete_list, nmGPCRs = gpcr_nm_list, DEGPCRs = DE_GPCRs, DEnmGPCRs = DE_nmGPCRs)
+names(GPCR_data_list) <- c("all GPCRs", "neuromodulatory GPCRs", "differentially expressed GPCRs", "differentially expressed neuromodulatory GPCRs")
+upset(fromList(GPCR_data_list), order.by = "freq", point.size = 3.5, line.size = 2, nsets = 4, main.bar.color = "black", matrix.color = "darkgrey",
+      text.scale = c(1.3, 1.3, 1.3,1.3,2,1.3))
 
 # create subset containing all differentially expressed genes
 DEG_genes <- dds[DEG_list,]
@@ -189,7 +199,7 @@ colnames(assay_DEG_rld) <- df$region
 regions <- unique(colnames(assay_DEG_rld))
 assay_DEG_avg <- sapply(regions, function(x)  rowMeans(assay_DEG_rld[,colnames(assay_DEG_rld) %in% x], na.rm = TRUE))
 
-saveRDS(assay_DEG_avg, file = "./Data/NGS_DEG.rds")
+saveRDS(assay_DEG_avg, file = "./NGS_DEG.rds")
 
 ######### CONTINUE HERE
 
