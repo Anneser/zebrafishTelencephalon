@@ -1,0 +1,565 @@
+GPCR_Family;class;ligand;ligand_entrez;receptor;receptor_entrez;GPCR_type;neuropeptide;Subfamily
+Rhodopsin;amine;acetylcholine;;chrm1a;792708;Gq;0;A18
+Rhodopsin;amine;acetylcholine;;chrm1b;794658;Gq;0;A18
+Rhodopsin;amine;acetylcholine;;chrm2a;352938;Gi/o;0;A18
+Rhodopsin;amine;acetylcholine;;chrm2b;555516;Gi/o;0;A18
+Rhodopsin;amine;acetylcholine;;chrm3a;571679;Gq;0;A18
+Rhodopsin;amine;acetylcholine;;chrm3b;100149598;Gq;0;A18
+Rhodopsin;amine;acetylcholine;;chrm4a;100150701;Gi/o;0;A18
+Rhodopsin;amine;acetylcholine;;si:ch73-151m17.5;100004742;Gi/o;0;A18
+Rhodopsin;amine;acetylcholine;;chrm5a;553978;Gq;0;A18
+Rhodopsin;amine;acetylcholine;;chrm5b;561491;Gq;0;A18
+Rhodopsin;amine;norepinephrine;;adra1aa;798498;Gq;0;A17
+Rhodopsin;amine;norepinephrine;;adra1ab;557259;Gq;0;A17
+Rhodopsin;amine;norepinephrine;;adra1bb;492486;Gq;0;A17
+Rhodopsin;amine;norepinephrine;;adra1ba;100149100;Gq;0;A17
+Rhodopsin;amine;norepinephrine;;adra1d;568614;Gq;0;A17
+Rhodopsin;amine;norepinephrine;;adra2a;266750;Gi/o;0;A17
+Rhodopsin;amine;norepinephrine;;adra2b;266751;Gi/o;0;A17
+Rhodopsin;amine;norepinephrine;;alpha-2B;100330650;Gi/o;0;A17
+Rhodopsin;amine;norepinephrine;;adra2c;266752;Gi/o;0;A17
+Rhodopsin;amine;norepinephrine;;adra2db;266755;Gi/o;0;A17
+Rhodopsin;amine;norepinephrine;;adra2da;266754;Gi/o;0;A17
+Rhodopsin;amine;norepinephrine;;adrb1;557194;Gs;0;A17
+Rhodopsin;amine;norepinephrine;;adrb2b;100037315;Gs;0;A17
+Rhodopsin;amine;norepinephrine;;adrb2a;565838;Gs;0;A17
+Rhodopsin;amine;norepinephrine;;adrb3b;792519;Gs;0;A17
+Rhodopsin;amine;norepinephrine;;adrb3a;558248;Gs;0;A17
+Rhodopsin;amine;dopamine;;drd1b;568126;Gs;0;A17
+Rhodopsin;amine;dopamine;;drd1a;792634;Gs;0;A17
+Rhodopsin;amine;dopamine;;drd2b;378719;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;drd2a;282557;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;drd2l;378718;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;drd3;282554;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;drd4a;503564;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;drd4b;503565;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;drd4-rs;503566;Gi/o;0;A17
+Rhodopsin;amine;dopamine;;D(1)-like dopamine receptor;563567;Gs;0;A17
+Rhodopsin;amine;dopamine;;drd6b;100001636;;0;A17
+Rhodopsin;amine;dopamine;;drd7;100002285;;0;A17
+Rhodopsin;amine;dopamine;;drd5a;100536970;Gs;0;A17
+Rhodopsin;amine;dopamine;;D(1) dopamine receptor-like;567498;Gs;0;A17
+Rhodopsin;amine;histamine;;hrh1;735302;Gq;0;A18
+Rhodopsin;amine;histamine;;hrh2a;735303;Gq;0;A17
+Rhodopsin;amine;histamine;;hrh2b;100005590;Gq;0;A17
+Rhodopsin;amine;histamine;;hrh3;561773;Gi/o;0;A18
+Rhodopsin;amine;histamine;;histamine H3 receptor-like;100331077;Gi/o;0;A18
+Rhodopsin;amine;histamine;;histamine H3 receptor;100334962;Gi/o;0;A17
+Rhodopsin;amine;serotonin;;htr1aa;100001828;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr1b;561647;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr1d;556429;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr1e;100330681;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr1fa;100005344;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr1ab;797538;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr1fb;100004819;Gi/o;0;A19
+Rhodopsin;amine;serotonin;;htr2aa;560808;Gq;0;A17
+Rhodopsin;amine;serotonin;;htr2ab;559806;Gq;0;A17
+Rhodopsin;amine;serotonin;;htr2b;751784;Gq;0;A17
+Rhodopsin;amine;serotonin;;htr2cl1;100000981;Gq;0;A17
+Rhodopsin;amine;serotonin;;5-hydroxytryptamine receptor 4-like;797212;Gs;0;A19
+Rhodopsin;amine;serotonin;;htr4;101882850;Gs;0;A19
+Rhodopsin;amine;serotonin;;5-hydroxytryptamine receptor 4-like isoform X1;559089;Gs;0;A19
+Rhodopsin;amine;serotonin;;htr5ab;368475;Gi/o;0;A17
+Rhodopsin;amine;serotonin;;htr5aa;100038775;Gi/o;0;A17
+Rhodopsin;amine;serotonin;;htr6;568269;Gs;0;A17
+Rhodopsin;amine;serotonin;;htr7a;562111;Gs;0;A19
+Rhodopsin;amine;serotonin;;htr7b;565304;Gs;0;A19
+Rhodopsin;amine;serotonin;;htr7;100536080;Gs;0;A19
+Rhodopsin;amine;serotonin;;htr7c;572143;Gs;0;A19
+Rhodopsin;amine;trace amine;;taar1b;794715;Gs, Gq;0;A17
+Rhodopsin;amine;trace amine;;taar13c;100034378;;0;A17
+Rhodopsin;amine;trace amine;;taar12b;100034646;;0;A17
+Rhodopsin;amine;trace amine;;taar12a;100034659;;0;A17
+Rhodopsin;amine;trace amine;;taar20t;100149666;;0;A17
+Rhodopsin;amine;trace amine;;taar19k;100151309;;0;A17
+Rhodopsin;amine;trace amine;;taar19e;100147984;;0;A17
+Rhodopsin;amine;trace amine;;taar19o;100003319;;0;A17
+Rhodopsin;amine;trace amine;;taar19m;100003441;;0;A17
+Rhodopsin;amine;trace amine;;taar20x;100150393;;0;A17
+Rhodopsin;amine;trace amine;;taar20j;100329273;;0;A17
+Rhodopsin;amine;trace amine;;taar19d;100149675;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;100003630;;0;A17
+Rhodopsin;amine;trace amine;;taar20b;100001562;;0;A17
+Rhodopsin;amine;trace amine;;taar20o;100002324;;0;A17
+Rhodopsin;amine;trace amine;;taar20u;100151047;;0;A17
+Rhodopsin;amine;trace amine;;taar20r;100150617;;0;A17
+Rhodopsin;amine;trace amine;;taar19b;100333348;;0;A17
+Rhodopsin;amine;trace amine;;taar20c1;100001919;;0;A17
+Rhodopsin;amine;trace amine;;taar20h;100001633;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;100002481;;0;A17
+Rhodopsin;amine;trace amine;;taar20c;100001854;;0;A17
+Rhodopsin;amine;trace amine;;taar18g;100330560;;0;A17
+Rhodopsin;amine;trace amine;;taar20i;100150810;;0;A17
+Rhodopsin;amine;trace amine;;taar14e;795656;;0;A17
+Rhodopsin;amine;trace amine;;taar14l;100034645;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;100149223;;0;A17
+Rhodopsin;amine;trace amine;;taar14i;100034374;;0;A17
+Rhodopsin;amine;trace amine;;taar15;100034377;;0;A17
+Rhodopsin;amine;trace amine;;taar14j;100034516;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;100331742;;0;A17
+Rhodopsin;amine;trace amine;;taar14f;795486;;0;A17
+Rhodopsin;amine;trace amine;;taar14a;100034373;;0;A17
+Rhodopsin;amine;trace amine;;taar14d;795317;;0;A17
+Rhodopsin;amine;trace amine;;zgc:153137;751748;;0;A17
+Rhodopsin;amine;trace amine;;taar14b;792119;;0;A17
+Rhodopsin;amine;trace amine;;taar14g;795424;;0;A17
+Rhodopsin;amine;trace amine;;taar14h;100034599;;0;A17
+Rhodopsin;amine;trace amine;;taar13e;100034381;;0;A17
+Rhodopsin;amine;trace amine;;taar13d;100034379;;0;A17
+Rhodopsin;amine;trace amine;;taar13a;100034639;;0;A17
+Rhodopsin;amine;trace amine;;taar13b;100034380;;0;A17
+Rhodopsin;amine;trace amine;;taar12j;795139;;0;A17
+Rhodopsin;amine;trace amine;;taar12c;100034601;;0;A17
+Rhodopsin;amine;trace amine;;taar12h;795068;;0;A17
+Rhodopsin;amine;trace amine;;taar12e;100034600;;0;A17
+Rhodopsin;amine;trace amine;;taar12f;794923;;0;A17
+Rhodopsin;amine;trace amine;;taar12i;100034543;;0;A17
+Rhodopsin;amine;trace amine;;taar12m;100150578;;0;A17
+Rhodopsin;amine;trace amine;;taar10a;794359;;0;A17
+Rhodopsin;amine;trace amine;;taar10d;794512;;0;A17
+Rhodopsin;amine;trace amine;;taar10c;794440;;0;A17
+Rhodopsin;amine;trace amine;;taar12g;794997;;0;A17
+Rhodopsin;amine;trace amine;;taar10;100034376;;0;A17
+Rhodopsin;amine;trace amine;;taar10b;794579;;0;A17
+Rhodopsin;amine;trace amine;;taar11;794647;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 1-like;100535889;Gs, Gq;0;A17
+Rhodopsin;amine;trace amine;;taar19p;100003265;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;108179083;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;108191509;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 6-like;108191508;;0;A17
+Rhodopsin;amine;trace amine;;taar16f;103911782;;0;A17
+Rhodopsin;amine;trace amine;;si:dkey-246e3.4;108180247;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;110437881;;0;A17
+Rhodopsin;amine;trace amine;;taar20l;101886828;;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 1-like;101885329;Gs, Gq;0;A17
+Rhodopsin;amine;trace amine;;trace amine-associated receptor 13c-like;110440059;;0;A17
+Rhodopsin;peptide;agt;322485;agtr1a;794575;Gq;1;A03
+Rhodopsin;peptide;agt;322485;agtr1b;100333455;Gq;1;A03
+Rhodopsin;peptide;agt;322485;agtr2;503772;;1;A03
+Rhodopsin;peptide;apln;798375;aplnrb;565492;Gi/o;1;
+Rhodopsin;peptide;apln;798375;aplnra;561935;Gi/o;1;
+Rhodopsin;peptide;apln;798375;aplnr2;793710;Gi/o;1;
+Rhodopsin;peptide;apela;100536023;aplnrb;565492;Gi/o;1;
+Rhodopsin;peptide;apela;100536023;aplnra;561935;Gi/o;1;
+Rhodopsin;peptide;apela;100536023;aplnr2;793710;Gi/o;1;
+Rhodopsin;peptide;nmba;798102;nmbr;561834;Gq;1;A07
+Rhodopsin;peptide;nmba;798102;grpr;567289;Gq;1;A07
+Rhodopsin;peptide;nmbb;569893;nmbr;561834;Gq;1;A07
+Rhodopsin;peptide;nmbb;569893;grpr;567289;Gq;1;A07
+Rhodopsin;peptide;grp;559978;nmbr;561834;Gq;1;A07
+Rhodopsin;peptide;grp;559978;grpr;567289;Gq;1;A07
+Rhodopsin;peptide;kng1;449808;bdkrb1;368199;Gq, Gi/o;1;A03
+Rhodopsin;peptide;kng1;449808;B2 bradykinin receptor-like;100004938;Gq, Gi/o;1;A03
+Rhodopsin;peptide;kng1;449808;bdkrb2;100330960;Gq, Gi/o;1;A03
+Rhodopsin;peptide;vgf;100535309;c5ar1;100000959;Gi/o;1;A08
+Rhodopsin;peptide;vgf;100535309;c3ar1;794255;;1;A08
+Rhodopsin;peptide;si:dkey-175g6.2;793455;c5ar1;100000959;Gi/o;1;A08
+Rhodopsin;peptide;si:dkey-175g6.2;793455;c3ar1;794255;;1;A08
+Rhodopsin;peptide;ccka;100007763;cckar;569038;Gq;1;A06
+Rhodopsin;peptide;ccka;100007763;cckbra;100137117;Gq;1;A06
+Rhodopsin;peptide;ccka;100007763;cholecystokinin receptor-like;100331465;Gq;1;A06
+Rhodopsin;peptide;cckb;100000095;cckar;569038;Gq;1;A06
+Rhodopsin;peptide;cckb;100000095;cckbra;100137117;Gq;1;A06
+Rhodopsin;peptide;cckb;100000095;cholecystokinin receptor-like;100331465;Gq;1;A06
+Rhodopsin;peptide;edn1;58032;ednraa;114550;Gq;1;A07
+Rhodopsin;peptide;edn1;58032;ednrab;405866;Gq;1;A07
+Rhodopsin;peptide;edn1;58032;ednrba;30442;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn1;58032;ednrbb;560081;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn2;569550;ednraa;114550;Gq;1;A07
+Rhodopsin;peptide;edn2;569550;ednrab;405866;Gq;1;A07
+Rhodopsin;peptide;edn2;569550;ednrba;30442;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn2;569550;ednrbb;560081;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn2-like;567978;ednraa;114550;Gq;1;A07
+Rhodopsin;peptide;edn2-like;567978;ednrab;405866;Gq;1;A07
+Rhodopsin;peptide;edn2-like;567978;ednrba;30442;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn2-like;567978;ednrbb;560081;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;si:ch211-202p1.5;103909337;ednraa;114550;Gq;1;A07
+Rhodopsin;peptide;si:ch211-202p1.5;103909337;ednrab;405866;Gq;1;A07
+Rhodopsin;peptide;si:ch211-202p1.5;103909337;ednrba;30442;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;si:ch211-202p1.5;103909337;ednrbb;560081;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn3b;100148183;ednraa;114550;Gq;1;A07
+Rhodopsin;peptide;edn3b;100148183;ednrab;405866;Gq;1;A07
+Rhodopsin;peptide;edn3b;100148183;ednrba;30442;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn3b;100148183;ednrbb;560081;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn3;101884385;ednraa;114550;Gq;1;A07
+Rhodopsin;peptide;edn3;101884385;ednrab;405866;Gq;1;A07
+Rhodopsin;peptide;edn3;101884385;ednrba;30442;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;edn3;101884385;ednrbb;560081;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;galn;100006361;galr1a;567820;Gi/o;1;A05
+Rhodopsin;peptide;galn;100006361;galr1b;561989;Gi/o;1;A05
+Rhodopsin;peptide;galn;100006361;galr2b;798737;Gi/o, Gq;1;A05
+Rhodopsin;peptide;galn;100006361;galr2-like;110438944;Gi/o, Gq;1;A05
+Rhodopsin;peptide;galn;100006361;galr2-like;101883414;Gi/o, Gq;1;A05
+Rhodopsin;peptide;galnl;100538216;galr1a;567820;Gi/o;1;A05
+Rhodopsin;peptide;galnl;100538216;galr1b;561989;Gi/o;1;A05
+Rhodopsin;peptide;galnl;100538216;galr2b;798737;Gi/o, Gq;1;A05
+Rhodopsin;peptide;galnl;100538216;galr2-like;110438944;Gi/o, Gq;1;A05
+Rhodopsin;peptide;galnl;100538216;galr2-like;101883414;Gi/o, Gq;1;A05
+Rhodopsin;peptide;spx;101882535;galr1a;567820;Gi/o;1;A05
+Rhodopsin;peptide;spx;101882535;galr1b;561989;Gi/o;1;A05
+Rhodopsin;peptide;spx;101882535;galr2b;798737;Gi/o, Gq;1;A05
+Rhodopsin;peptide;spx;101882535;galr2-like;110438944;Gi/o, Gq;1;A05
+Rhodopsin;peptide;spx;101882535;galr2-like;101883414;Gi/o, Gq;1;A05
+Rhodopsin;peptide;ghrl;798613;ghsra;795753;Gi/o, Gq;1;A07
+Rhodopsin;peptide;ghrl;798613;ghsrb;100332193;Gi/o, Gq;1;A07
+Rhodopsin;peptide;kiss1;;kiss1ra;561898;Gq;1;A05
+Rhodopsin;peptide;kiss1;;kiss1rb;100002715;Gq;1;A05
+Rhodopsin;peptide;pomca;353221;mc1r;353151;Gs;1;A13
+Rhodopsin;peptide;pomca;353221;mc2r;353152;Gs;1;A13
+Rhodopsin;peptide;pomca;353221;mc3r;353153;;1;A13
+Rhodopsin;peptide;pomca;353221;mc4r;286833;;1;A13
+Rhodopsin;peptide;pomca;353221;mc5rb;286835;;1;A13
+Rhodopsin;peptide;pomca;353221;mc5ra;286834;;1;A13
+Rhodopsin;peptide;pomcb;100034412;mc1r;353151;Gs;1;A13
+Rhodopsin;peptide;pomcb;100034412;mc2r;353152;Gs;1;A13
+Rhodopsin;peptide;pomcb;100034412;mc3r;353153;;1;A13
+Rhodopsin;peptide;pomcb;100034412;mc4r;286833;;1;A13
+Rhodopsin;peptide;pomcb;100034412;mc5rb;286835;;1;A13
+Rhodopsin;peptide;pomcb;100034412;mc5ra;286834;;1;A13
+Rhodopsin;peptide;mln;;mlnr;100536406;Gq;1;A07
+Rhodopsin;peptide;nmu;407657;nmur1a;557276;Gq;1;A07
+Rhodopsin;peptide;nmu;407657;nmur3;566750;Gq;1;A07
+Rhodopsin;peptide;nmu;407657;nmur1b;569960;Gq;1;A07
+Rhodopsin;peptide;nms;100272161;nmur1a;557276;Gq;1;A07
+Rhodopsin;peptide;nms;100272161;nmur3;566750;Gq;1;A07
+Rhodopsin;peptide;nms;100272161;nmur1b;569960;Gq;1;A07
+Rhodopsin;peptide;npffl;368264;npffr1l3;561324;Gi/o;1;A06
+Rhodopsin;peptide;npffl;368264;npffr1l2;570189;Gi/o;1;A06
+Rhodopsin;peptide;npffl;368264;npffr1l1;559950;Gi/o;1;A06
+Rhodopsin;peptide;npffl;368264;npffr2a;560955;Gi/o;1;A06
+Rhodopsin;peptide;npffl;368264;npffr2;561565;Gi/o;1;A06
+Rhodopsin;peptide;npvf;100002108;npffr1l3;561324;Gi/o;1;A06
+Rhodopsin;peptide;npvf;100002108;npffr1l2;570189;Gi/o;1;A06
+Rhodopsin;peptide;npvf;100002108;npffr1l1;559950;Gi/o;1;A06
+Rhodopsin;peptide;npvf;100002108;npffr2a;560955;Gi/o;1;A06
+Rhodopsin;peptide;npvf;100002108;npffr2;561565;Gi/o;1;A06
+Rhodopsin;peptide;npy;30281;npy1r;793668;Gi/o;1;A09
+Rhodopsin;peptide;npy;30281;npy8ar;30714;Gi/o;1;A09
+Rhodopsin;peptide;npy;30281;npy8br;30713;Gi/o;1;A09
+Rhodopsin;peptide;npy;30281;npy2rl;795311;Gi/o, Gq;1;A09
+Rhodopsin;peptide;npy;30281;npy7r;449010;Gi/o;1;A09
+Rhodopsin;peptide;npy;30281;npy2r;100003852;Gi/o, Gq;1;A09
+Rhodopsin;peptide;npy;30281;npy4r;30717;Gi/o, Gq;1;A09
+Rhodopsin;peptide;npy;30281;si:dkey-27p18.2;100002786;Gi/o;1;A09
+Rhodopsin;peptide;pyya;30211;npy1r;793668;Gi/o;1;A09
+Rhodopsin;peptide;pyya;30211;npy8ar;30714;Gi/o;1;A09
+Rhodopsin;peptide;pyya;30211;npy8br;30713;Gi/o;1;A09
+Rhodopsin;peptide;pyya;30211;npy2rl;795311;Gi/o, Gq;1;A09
+Rhodopsin;peptide;pyya;30211;npy7r;449010;Gi/o;1;A09
+Rhodopsin;peptide;pyya;30211;npy2r;100003852;Gi/o, Gq;1;A09
+Rhodopsin;peptide;pyya;30211;npy4r;30717;Gi/o, Gq;1;A09
+Rhodopsin;peptide;pyya;30211;si:dkey-27p18.2;100002786;Gi/o;1;A09
+Rhodopsin;peptide;npb;563766;npbwr2b;571123;Gi/o;1;A04
+Rhodopsin;peptide;npb;563766;npbwr2;556451;Gi/o;1;A04
+Rhodopsin;peptide;nts;101884890;ntsr1;569344;Gs, Gi/o, Gq;1;A07
+Rhodopsin;peptide;penka;368228;oprd1a;30509;Gi/o;1;A04
+Rhodopsin;peptide;penka;368228;oprd1b;336529;Gi/o;1;A04
+Rhodopsin;peptide;penka;368228;oprk1;360139;Gi/o;1;A04
+Rhodopsin;peptide;penka;368228;oprm1;65088;Gi/o, Gq;1;A04
+Rhodopsin;peptide;penka;368228;oprl1;402851;Gi/o;1;A04
+Rhodopsin;peptide;penka;368228;oprl1X2;556532;Gi/o;1;A04
+Rhodopsin;peptide;penkb;360136;oprd1a;30509;Gi/o;1;A04
+Rhodopsin;peptide;penkb;360136;oprd1b;336529;Gi/o;1;A04
+Rhodopsin;peptide;penkb;360136;oprk1;360139;Gi/o;1;A04
+Rhodopsin;peptide;penkb;360136;oprm1;65088;Gi/o, Gq;1;A04
+Rhodopsin;peptide;penkb;360136;oprl1;402851;Gi/o;1;A04
+Rhodopsin;peptide;penkb;360136;oprl1X2;556532;Gi/o;1;A04
+Rhodopsin;peptide;pdyn;414850;oprd1a;30509;Gi/o;1;A04
+Rhodopsin;peptide;pdyn;414850;oprd1b;336529;Gi/o;1;A04
+Rhodopsin;peptide;pdyn;414850;oprk1;360139;Gi/o;1;A04
+Rhodopsin;peptide;pdyn;414850;oprm1;65088;Gi/o, Gq;1;A04
+Rhodopsin;peptide;pdyn;414850;oprl1;402851;Gi/o;1;A04
+Rhodopsin;peptide;pdyn;414850;oprl1X2;556532;Gi/o;1;A04
+Rhodopsin;peptide;pnocb;394236;oprd1a;30509;Gi/o;1;A04
+Rhodopsin;peptide;pnocb;394236;oprd1b;336529;Gi/o, Gq;1;A04
+Rhodopsin;peptide;pnocb;394236;oprk1;360139;Gi/o;1;A04
+Rhodopsin;peptide;pnocb;394236;oprm1;65088;Gi/o;1;A04
+Rhodopsin;peptide;pnocb;394236;oprl1;402851;Gi/o;1;A04
+Rhodopsin;peptide;pnocb;394236;oprl1X2;556532;Gi/o;1;A04
+Rhodopsin;peptide;pnoca;100529086;oprd1a;30509;Gi/o;1;A04
+Rhodopsin;peptide;pnoca;100529086;oprd1b;336529;Gi/o, Gq;1;A04
+Rhodopsin;peptide;pnoca;100529086;oprk1;360139;Gi/o;1;A04
+Rhodopsin;peptide;pnoca;100529086;oprm1;65088;Gi/o;1;A04
+Rhodopsin;peptide;pnoca;100529086;oprl1;402851;Gi/o;1;A04
+Rhodopsin;peptide;pnoca;100529086;oprl1X2;556532;Gi/o, Gq;1;A04
+Rhodopsin;peptide;qrfp;798385;qrfpra;100149491;;1;A06
+Rhodopsin;peptide;qrfp;798385;qrfprb;101886159;;1;A06
+Rhodopsin;peptide;hcrt;613239;hcrtr2;561260;Gq;1;A06
+Rhodopsin;peptide;oxt;352920;oxtra;100001530;Gq;1;A06
+Rhodopsin;peptide;oxt;352920;oxtrb;796298;Gq;1;A06
+Rhodopsin;peptide;sst1.1;326018;sstr1a;568254;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr1b;557645;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr2a;100333578;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr2b;560530;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr2-like;100333697;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;si:zfos-169g10.2;100334518;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr3;566989;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr5;406588;Gi/o;1;A04
+Rhodopsin;peptide;sst1.1;326018;sstr5-like;110439889;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr1a;568254;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr1b;557645;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr2a;100333578;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr2b;560530;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr2-like;100333697;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;si:zfos-169g10.2;100334518;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr3;566989;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr5;406588;Gi/o;1;A04
+Rhodopsin;peptide;sst1.2;565781;sstr5-like;110439889;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr1a;568254;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr1b;557645;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr2a;100333578;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr2b;560530;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr2-like;100333697;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;si:zfos-169g10.2;100334518;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr3;566989;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr5;406588;Gi/o;1;A04
+Rhodopsin;peptide;sst5;793347;sstr5-like;110439889;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr1a;568254;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr1b;557645;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr2a;100333578;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr2b;560530;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr2-like;100333697;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;si:zfos-169g10.2;100334518;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr3;566989;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr5;406588;Gi/o;1;A04
+Rhodopsin;peptide;sst7;751721;sstr5-like;110439889;Gi/o;1;A04
+Rhodopsin;peptide;tac1;555634;tacr1b;564017;Gs, Gq;1;A09
+Rhodopsin;peptide;tac1;555634;tacr1a;100003539;Gs, Gq;1;A09
+Rhodopsin;peptide;tac1;555634;tacr2;100002125;Gs, Gq;1;A09
+Rhodopsin;peptide;tac3a;100320280;tacr3a;555482;Gq;1;A09
+Rhodopsin;peptide;tac3a;100320280;tacr3;100333270;Gq;1;A09
+Rhodopsin;peptide;tac3a;100320280;tacr3l;559201;Gq;1;A09
+Rhodopsin;peptide;tac3b;569642;tacr3a;555482;Gq;1;A09
+Rhodopsin;peptide;tac3b;569642;tacr3l;559201;Gq;1;A09
+Rhodopsin;peptide;tac3b;569642;tacr3;100333270;Gq;1;A09
+Rhodopsin;peptide;uts2b;402853;uts2r;559133;Gq;1;A05
+Rhodopsin;peptide;uts2b;402853;si:dkey-33c3.1;794519;Gq;1;A05
+Rhodopsin;peptide;uts2b;402853;si:ch73-379f7.4;100334958;Gq;1;A05
+Rhodopsin;peptide;uts2b;402853;uts2rl;110440145;Gq;1;A05
+Rhodopsin;peptide;uts2a;405774;uts2r;559133;Gq;1;A05
+Rhodopsin;peptide;uts2a;405774;si:dkey-33c3.1;794519;Gq;1;A05
+Rhodopsin;peptide;uts2a;405774;si:ch73-379f7.4;100334958;Gq;1;A05
+Rhodopsin;peptide;uts2a;405774;uts2rl;110440145;Gq;1;A05
+Rhodopsin;peptide;uts2d;100884159;uts2r;559133;Gq;1;A05
+Rhodopsin;peptide;uts2d;100884159;si:dkey-33c3.1;794519;Gq;1;A05
+Rhodopsin;peptide;uts2d;100884159;si:ch73-379f7.4;100334958;Gq;1;A05
+Rhodopsin;peptide;uts2d;100884159;uts2rl;110440145;Gq;1;A05
+Rhodopsin;peptide;avp;352922;avpr1ab;555939;Gq;1;A06
+Rhodopsin;peptide;avp;352922;avpr1aa;571591;Gq;1;A06
+Rhodopsin;peptide;avp;352922;avpr2ab;100151502;Gq;1;A06
+Rhodopsin;peptide;avp;352922;si:dkey-178o16.4;100534787;Gq;1;A06
+Rhodopsin;peptide;avp;352922;avpr2l;100004053;Gs;1;A06
+Rhodopsin;peptide;avp;352922;avpr2aa;100007585;Gs;1;A06
+Rhodopsin;peptide;prlh;100536871;prlhr2b;792590;;1;A09
+Rhodopsin;peptide;prlh;100536871;prlhr2a;654782;;1;A09
+Rhodopsin;peptide;prlh;100536871;si:dkey-202l22.3;100002553;;1;A09
+Rhodopsin;peptide;prlh;100536871;prlh2r;797157;;1;A09
+Rhodopsin;peptide;prlh2;110437754;prlhr2b;792590;;1;A09
+Rhodopsin;peptide;prlh2;110437754;prlhr2a;654782;;1;A09
+Rhodopsin;peptide;prlh2;110437754;si:dkey-202l22.3;100002553;;1;A09
+Rhodopsin;peptide;prlh2;110437754;prlh2r;797157;;1;A09
+Rhodopsin;hormone protein;pmch;100003610;mchr1b;353180;Gs, Gi/o, Gq;1;A05
+Rhodopsin;hormone protein;pmch;100003610;mchr1a;353181;Gs, Gi/o, Gq;1;A05
+Rhodopsin;hormone protein;pmch;100003610;si:dkey-165n16.5;100150764;Gs, Gi/o, Gq;1;A05
+Rhodopsin;hormone protein;pmch;100003610;mchr2;100535160;Gq;1;A05
+Rhodopsin;hormone protein;pmch;100003610;mchr2l;558520;Gq;1;A10
+Rhodopsin;hormone protein;cga;402987;fshr;195820;;1;A10
+Rhodopsin;hormone protein;cga;402987;lhcgr;402920;;1;A10
+Rhodopsin;hormone protein;lhb;402917;lhcgr;402920;;1;A10
+Rhodopsin;hormone protein;cga;402987;tshr;560609;;1;A10
+Rhodopsin;hormone protein;tshba;353223;tshr;560609;;1;A10
+Rhodopsin;hormone protein;tshbl;100001596;tshr;560609;;1;A10
+Rhodopsin;hormone protein;gpha2;100310882;tshr;560609;;1;A10
+Rhodopsin;hormone protein;gphb5;100310830;tshr;560609;;1;A10
+Rhodopsin;prostanoid;PGE2;;ptger1c;100003535;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger1b;564945;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger1a;559315;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger2b;570410;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger2a;393608;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger3;100000544;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger4a;562469;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger4b;100005416;;0;A14
+Rhodopsin;prostanoid;PGE2;;ptger4c;560057;;0;A14
+Rhodopsin;prostanoid;PGF2-alpha;;ptgfr;571808;;0;A14
+Rhodopsin;prostanoid;PGI2;;ptgir;561406;;0;A14
+Rhodopsin;prostanoid;thromboxane a2;;tbxa2r;102216340;;0;A14
+Rhodopsin;nucleotide-like;adenosine;;adora1b;100150997;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;si:ch211-233f11.5;562364;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora1l;571410;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora1l;108179103;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora1l;100007535;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora2aa;561701;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora2ab;566118;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora2b;560100;;0;A18
+Rhodopsin;nucleotide-like;adenosine;;adora3l;101882633;;0;A18
+Rhodopsin;nucleotide-like;nucleotides;;p2ry2.1;571633;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;p2ry2.3;799661;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;p2ry2.2;799741;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;p2ry1;100003922;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;si:dkey-78k11.9;100537284;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;p2ry4;368435;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;p2ry6;566099;Gq;0;A11
+Rhodopsin;nucleotide-like;nucleotides;;lpar6a;571773;Gs, Gi/o;0;A13
+Rhodopsin;nucleotide-like;nucleotides;;lpar6b;101884764;Gs, Gi/o;0;A13
+Rhodopsin;nucleotide-like;nucleotides;;lpar6l;110437788;Gs, Gi/o;0;A13
+Rhodopsin;nucleotide-like;nucleotides;;p2ry10;100037375;Gq;0;A13
+Rhodopsin;nucleotide-like;nucleotides;;P2Y;793750;Gq;0;A15
+Rhodopsin;nucleotide-like;nucleotides;;P2Y;100147937;Gq;0;A15
+Rhodopsin;nucleotide-like;nucleotides;;p2ry8;566497;Gq;0;A15
+Rhodopsin;nucleotide-like;nucleotides;;p2ry11;100007926;Gq;0;A15
+Rhodopsin;nucleotide-like;nucleotides;;p2ry13;100329592;Gq;0;A15
+Rhodopsin;cannabinoid;anandamide;;cnr1;404209;Gs, Gi/o ;0;A13
+Rhodopsin;cannabinoid;anandamide;;cnr2;795246;Gs, Gi/o ;0;A13
+Rhodopsin;gonadotropin-releasing hormone;gnrh2;353222;gnrhr4;100001586;Gq;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh2;353222;gnrhr2;100270671;Gq;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh2;353222;gnrhr1;100270672;Gq;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh2;353222;gnrhr3;564687;Gq;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh3;360141;gnrhr4;100001586;Gq;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh3;360141;gnrhr2;100270671;Gq;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh3;360141;gnrhr1;100270672;Gq, Gi/o;1;A06
+Rhodopsin;gonadotropin-releasing hormone;gnrh3;360141;gnrhr3;564687;Gq;1;A06
+Rhodopsin;thyrotropin-releasing hormone;trh;266721;trhrb;569382;Gq;1;A07
+Rhodopsin;thyrotropin-releasing hormone;trh;266721;trhra;558878;Gq;1;A07
+Rhodopsin;thyrotropin-releasing hormone;trh;266721;trhr2;556431;Gq;1;A07
+Rhodopsin;thyrotropin-releasing hormone;trh;266721;trhrl;108179223;Gq;1;A07
+Rhodopsin;melatonin;melatonin;;mtnr1aa;30667;Gi/o;0;A09
+Rhodopsin;melatonin;melatonin;;mtnr1ab;565718;Gi/o;0;A09
+Rhodopsin;melatonin;melatonin;;mtnr1c;30661;Gi/o;0;A09
+Rhodopsin;melatonin;melatonin;;mtnr1al;30660;Gi/o;0;A09
+Rhodopsin;melatonin;melatonin;;mtnr1bb;30668;Gi/o;0;A09
+Rhodopsin;melatonin;melatonin;;mtnr1ba;30669;Gi/o;0;A09
+Rhodopsin;lysosphingolipid acid;LPA;;lpar1;368461;Gi/o, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;LPA;;lpar2b;567956;Gi/o, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;LPA;;lpar2a;445184;Gi/o, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;LPA;;lpar3;102216338;Gi/o, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;LPA;;lpar4;794698;Gi/o, Gq, Gs;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr1;64617;Gi/o;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr2;170457;Gs, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr3;100332187;Gi/o, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr3a;798390;Gi/o, Gq;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr4;402857;Gi/o;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr5a;492350;Gi/o;0;A13
+Rhodopsin;lysosphingolipid acid;S1P;;s1pr5b;780835;Gi/o;0;A13
+Rhodopsin;relaxin;rln1;100996239;rxfp1;100498669;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp2a;792884;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp2l;558546;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp2b;566888;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3;794924;Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3.3a2;100149732;Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3.3a3;100002494;Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3.2b;100004589;Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3.3a1;100007598;Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3.2a;100008558;Gi/o;1;A05
+Rhodopsin;relaxin;rln1;100996239;rxfp3.3b;101883306;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp1;100498669;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp2a;792884;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp2l;558546;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp2b;566888;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3;794924;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3.3a2;100149732;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3.3a3;100002494;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3.2b;100004589;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3.3a1;100007598;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3.2a;100008558;Gi/o;1;A05
+Rhodopsin;relaxin;rln3a;503864;rxfp3.3b;101883306;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp1;100498669;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp2a;792884;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp2l;558546;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp2b;566888;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3;794924;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3.3a2;100149732;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3.3a3;100002494;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3.2b;100004589;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3.3a1;100007598;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3.2a;100008558;Gi/o;1;A05
+Rhodopsin;relaxin;rln3b;796288;rxfp3.3b;101883306;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp1;100498669;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp2a;792884;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp2l;558546;Gs, Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp2b;566888;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3;794924;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3.3a2;100149732;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3.3a3;100002494;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3.2b;100004589;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3.3a1;100007598;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3.2a;100008558;Gi/o;1;A05
+Rhodopsin;relaxin;insl5a;566602;rxfp3.3b;101883306;Gs, Gi/o;1;A05
+Secretin;calcitonin;calca;436744;calcr;560268;Gs, Gq/11;1;B01
+Secretin;calcitonin;calca;436744;calcrla;445508;Gs, Gq/11;1;B01
+Secretin;calcitonin;calca;436744;calcrlb;567131;Gs, Gq/11;1;B01
+Secretin;calcitonin;calca;436744;calcrl2;100537117;Gs, Gq/11;1;B01
+Secretin;calcitonin;adma;556502;calcr;560268;Gs, Gq/11;1;B01
+Secretin;calcitonin;adma;556502;calcrla;445508;Gs, Gq/11;1;B01
+Secretin;calcitonin;adma;556502;calcrlb;567131;Gs, Gq/11;1;B01
+Secretin;calcitonin;adma;556502;calcrl2;100537117;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2a;403114;calcr;560268;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2a;403114;calcrla;445508;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2a;403114;calcrlb;567131;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2a;403114;calcrl2;100537117;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2b;100322075;calcr;560268;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2b;100322075;calcrla;445508;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2b;100322075;calcrlb;567131;Gs, Gq/11;1;B01
+Secretin;calcitonin;adm2b;100322075;calcrl2;100537117;Gs, Gq/11;1;B01
+Secretin;calcitonin;iapp;100334757;calcr;560268;Gs, Gq/11;1;B01
+Secretin;calcitonin;iapp;100334757;calcrla;445508;Gs, Gq/11;1;B01
+Secretin;calcitonin;iapp;100334757;calcrlb;567131;Gs, Gq/11;1;B01
+Secretin;calcitonin;iapp;100334757;calcrl2;100537117;Gs, Gq/11;1;B01
+Secretin;corticotropin releasing hormone;crhb;492507;crhr1;567940;Gs;1;B01
+Secretin;corticotropin releasing hormone;crhb;492507;crhr2;100335005;Gs;1;B01
+Secretin;corticotropin releasing hormone;crh;796284;crhr1;567940;Gs;1;B01
+Secretin;corticotropin releasing hormone;crh;796284;crhr2;100335005;Gs;1;B01
+Secretin;corticotropin releasing hormone;uts1;563732;crhr1;567940;Gs;1;B01
+Secretin;corticotropin releasing hormone;uts1;563732;crhr2;100335005;Gs;1;B01
+Secretin;corticotropin releasing hormone;ucn3l;100003848;crhr1;567940;Gs;1;B01
+Secretin;corticotropin releasing hormone;ucn3l;100003848;crhr2;100335005;Gs;1;B01
+Secretin;gastric inhibitory peptide;gip;790901;gipr;101885360;Gs;1;B01
+Secretin;glucagon;gcgb;436584;gcgrb;565237;Gs;1;B01
+Secretin;glucagon;gcgb;436584;gcgra;562973;Gs;1;B01
+Secretin;glucagon;gcgb;436584;glp2r;101885514;Gs;1;B01
+Secretin;growth hormone-releasing hormone;ghrh;791105;ghrhrl;793334;Gs;1;B01
+Secretin;parathyroid hormone;pth1b;405885;pth1r;30629;Gs, Gq/11;1;B01
+Secretin;parathyroid hormone;pth1b;405885;pth3r;30651;Gs;1;B01
+Secretin;parathyroid hormone;pth1b;405885;pth2ra;30650;Gs;1;B01
+Secretin;parathyroid hormone;pth1b;405885;si:dkeyp-4h4.1;564876;Gs;1;B01
+Secretin;parathyroid hormone;pth1a;405886;pth1r;30629;Gs, Gq/12;1;B01
+Secretin;parathyroid hormone;pth1a;405886;pth3r;30651;Gs;1;B01
+Secretin;parathyroid hormone;pth1a;405886;pth2ra;30650;Gs;1;B01
+Secretin;parathyroid hormone;pth1a;405886;si:dkeyp-4h4.1;564876;Gs;1;B01
+Secretin;parathyroid hormone;pth2;402812;pth1r;30629;Gs, Gq/13;1;B01
+Secretin;parathyroid hormone;pth2;402812;pth3r;30651;Gs;1;B01
+Secretin;parathyroid hormone;pth2;402812;pth2ra;30650;Gs;1;B01
+Secretin;parathyroid hormone;pth2;402812;si:dkeyp-4h4.1;564876;Gs;1;B01
+Secretin;PACAP;adcyap1b;335625;adcyap1r1a;541315;Gs;1;B01
+Secretin;PACAP;adcyap1b;335625;adcyap1r1b;555473;Gs;1;B01
+Secretin;PACAP;adcyap1a;259257;adcyap1r1a;541315;Gs;1;B01
+Secretin;PACAP;adcyap1a;259257;adcyap1r1b;555473;Gs;1;B01
+Secretin;secretin;secretin;;sctr;100537567;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vip;795653;vipr1b;503868;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vip;795653;vipr1a;100334247;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vip;795653;ghrhr2;100002189;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vip;795653;ghrhrb;792410;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vip;795653;ghrhra;541314;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vip;795653;vipr2;81886;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vipb;100000558;vipr1b;503868;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vipb;100000558;vipr1a;100334247;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vipb;100000558;ghrhr2;100002189;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vipb;100000558;ghrhrb;792410;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vipb;100000558;ghrhra;541314;Gs;1;B01
+Secretin;vasoactive intestinal peptide;vipb;100000558;vipr2;81886;Gs;1;B01
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm1b;100150246;Gq;0;C01
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm1a;555576;Gq;0;C01
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm2b;564461;Gi/o;0;C02
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm2a;336153;Gi/o;0;C02
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm3;565256;Gi/o;0;C02
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm4;567181;Gi/o;0;C03
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm5a;568406;Gq;0;C01
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm5b;100332913;Gq;0;C01
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm6a;568484;Gi/o;0;C03
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm6b;565450;Gi/o;0;C03
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm7;100331190;Gi/o;0;C03
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm8a;792371;Gi/o;0;C03
+Metabotropic glutamate ;metabotropic glutamate;glutamate;;grm8b;569768;Gi/o;0;C03
+Metabotropic glutamate ;metabotropic glutamate;GABA;;gabbr1a;373873;Gi/o;0;
+Metabotropic glutamate ;metabotropic glutamate;GABA;;gabbr1b;558708;Gi/o;0;
+Metabotropic glutamate ;metabotropic glutamate;GABA;;gabbr2;560267;Gi/o;0;
+Metabotropic glutamate ;metabotropic glutamate;GABA;;gabbr2l;560647;Gi/o;0;
