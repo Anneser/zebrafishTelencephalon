@@ -25,21 +25,31 @@ In this repository, we provide the analysis code for scRNA-seq and bulk sequenci
 ## data availability
   Data can be downloaded as indicated in the manuscript and from the SRA depository linked with the BioProject PRJNA964500
 
-## read mapping
-We used the transcriptome annotation provided by the [Lawson lab](https://www.umassmed.edu/lawson-lab/reagents/zebrafish-transcriptome/) (V4.3.2), 
+## single cell read mapping
+Reads were mapped to the zebrafish genome as provided by UCSC (danRer11, May 2017) excluding the altenative loci. We used the 
+transcriptome annotation provided by the [Lawson lab](https://www.umassmed.edu/lawson-lab/reagents/zebrafish-transcriptome/) (V4.3.2), 
 which can be freely downloaded from the linked page. For more information, see [their publication](https://elifesciences.org/articles/55792). 
-For mapping, we used the [STARsolo package](https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md). We copied the CellRanger whitelist 
-for the 10x V3 chemistry (3M-february-2018.txt) to a local directory and mapped:
+For mapping, we used the [STARsolo package](https://github.com/alexdobin/STAR/blob/master/docs/STARsolo.md) (version 2.7.9a). We copied 
+the CellRanger whitelist for the 10x V3 chemistry (3M-february-2018.txt) to a local directory and mapped:
 
 ```
 STAR \
+  --runThreadN 16 \
+  --runMode genomeGenerate \
+  --genomeDir /link/to/genome/STARindex.2.7.9a.BSgenome.Drerio.UCSC.danRer11.noAlt.Lawson4.3.2.sjdb100 \
+  --genomeFastaFiles /link/to/genome/BSgenome.Drerio.UCSC.danRer11.noAlt.fa \
+  --genomeSAindexNbases 14 \
+  --sjdbGTFfile /link/to/annotation/V4.3.2.gtf \
+  --sjdbOverhang 100
+
+STAR \
 --genomeDir /link/to/genome/STARindex.2.7.9a.BSgenome.Drerio.UCSC.danRer11.noAlt.Lawsone4.3.2.sjdb100/ \
---readFilesIn /link/to/fasta_files.fastq.gz \
+--readFilesIn /link/to/fasta_file_1.fastq.gz /link/to/fasta_file_2.fastq.gz\
 --soloFeatures Gene Velocyto \
 --soloType CB_UMI_Simple \
 --soloCBwhitelist /link/to/CellRanger_3M_february_2018.txt \
 --soloCBstart 1 --soloCBlen 16 --soloUMIstart 17 --soloUMIlen 12 --soloStrand Forward \
---outFileNamePrefix /STARsolo_2.7.9_3065F1/ \
+--outFileNamePrefix /STARsolo_2.7.9_fasta_file/ \
 --runThreadN 12 \
 --readFilesCommand zcat \
 --outSAMtype BAM SortedByCoordinate \
