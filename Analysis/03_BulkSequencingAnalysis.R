@@ -20,7 +20,7 @@ library(readxl)
 
 setwd("./Data/")
 
-# I already merged the two spreadsheets into one .csv
+# the counts originating from the split fastq files have been merged
 bulk_df <- as.data.frame(read.csv("bulk_df.csv" ))
 rownames(bulk_df) <- bulk_df[,1] # set gene ids as row names
 bulk_df <- bulk_df[,-c(1)] # delete gene ids and width parameter
