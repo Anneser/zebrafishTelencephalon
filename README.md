@@ -44,17 +44,34 @@ STAR \
 
 STAR \
 --genomeDir /link/to/genome/STARindex.2.7.9a.BSgenome.Drerio.UCSC.danRer11.noAlt.Lawsone4.3.2.sjdb100/ \
---readFilesIn /link/to/fasta_file_1.fastq.gz /link/to/fasta_file_2.fastq.gz\
+--readFilesIn /link/to/fastq_file_1.gz /link/to/fastq_file_2.gz\
 --soloFeatures Gene Velocyto \
 --soloType CB_UMI_Simple \
 --soloCBwhitelist /link/to/CellRanger_3M_february_2018.txt \
 --soloCBstart 1 --soloCBlen 16 --soloUMIstart 17 --soloUMIlen 12 --soloStrand Forward \
---outFileNamePrefix /STARsolo_2.7.9_fasta_file/ \
+--outFileNamePrefix /STARsolo_2.7.9_fastq_file/ \
 --runThreadN 12 \
 --readFilesCommand zcat \
 --outSAMtype BAM SortedByCoordinate \
 --outSAMattributes NH HI CR UR CB UB GX GN
 ```
+
+## bulk RNA-seq read mapping
+We used the same STAR index files and used the "GeneCounts" option ('--quantMode') to count the number of reads per gene while mapping: 
+
+```
+STAR \
+--genomeDir /link/to/genome/STARindex.2.7.9a.BSgenome.Drerio.UCSC.danRer11.noAlt.Lawsone4.3.2.sjdb100/ \
+--readFilesIn /link/to/fastq_file.gz
+--outFileNamePrefix /STARsolo_2.7.9_fastq_file/ \
+--runThreadN 12 \
+--readFilesCommand zcat \
+--quantMode GeneCounts \
+--outSAMtype BAM SortedByCoordinate \
+--outSAMattributes NH HI
+```
+
+Counts from the split fastq files were merged and non-unique gene symbols were distinguished by adding a number (i.e.: the same way, it is done automatically in the STARsolo mode)
 
 ## SAMap
 We closely followed the [vignette](https://github.com/atarashansky/SAMap/blob/main/SAMap_vignette.ipynb) provided in the SAMap repository.
