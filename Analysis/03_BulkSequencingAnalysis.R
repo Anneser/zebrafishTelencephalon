@@ -21,7 +21,7 @@ library(readxl)
 setwd("./Data/")
 
 # the counts originating from the split fastq files have been merged
-bulk_df <- as.data.frame(read.csv("bulk_df.csv" ))
+bulk_df <- as.data.frame(read.csv("bulk_df.tab", sep="\t"))
 rownames(bulk_df) <- bulk_df[,1] # set gene ids as row names
 bulk_df <- bulk_df[,-c(1)] # delete gene ids and width parameter
 
