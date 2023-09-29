@@ -71,7 +71,7 @@ STAR \
 --outSAMattributes NH HI
 ```
 
-Counts from the split fastq files were merged and non-unique gene symbols were distinguished by adding a number (i.e.: the same way, it is done automatically in the STARsolo mode)
+Counts from the split fastq files were merged and non-unique gene symbols were distinguished by adding a number (i.e.: the same way, it is done automatically by importing the STARsolo output into a Seurat object)
 
 ## SAMap
 We closely followed the [vignette](https://github.com/atarashansky/SAMap/blob/main/SAMap_vignette.ipynb) provided in the SAMap repository.
