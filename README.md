@@ -4,7 +4,7 @@
 
 # Analysis code for zebrafish telencephalon sequencing data
 In this repository, we provide the analysis code for scRNA-seq and bulk sequencing data from zebrafish telencephalon.
-
+[![DOI](https://zenodo.org/badge/675645065.svg)](https://zenodo.org/doi/10.5281/zenodo.10209647)
 
 ## contents
 - ./analysis/
