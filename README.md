@@ -24,7 +24,8 @@ In this repository, we provide the analysis code for scRNA-seq and bulk sequenci
   Additional files necessary for analysis.
 
 ## data availability
-  Data can be downloaded as indicated in the manuscript and from the SRA depository linked with the BioProject PRJNA964500
+  Data can be downloaded as indicated in the manuscript and from the SRA depository linked with the BioProject PRJNA964500.
+  For easier access, processed .rds files for the entire dataset or the neuronal cell types can be accessed via [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10210550.svg)](https://doi.org/10.5281/zenodo.10210550)
 
 ## single cell read mapping
 Reads were mapped to the zebrafish genome as provided by UCSC (danRer11, May 2017) excluding the altenative loci. We used the 
